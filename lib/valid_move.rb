@@ -1,3 +1,11 @@
+def position_taken?(board, index)
+if board[index] == " " or board[index] == "" or board[index] == (nil)
+  return (false)
+
+else
+  return (true)
+end
+end
 # code your #valid_move? method here
 def valid_move?(board, index)
   if board[index] > 8
@@ -8,13 +16,6 @@ def valid_move?(board, index)
     return (true)
 
   end
-
-  if board[index] == " " or board[index] == "" or board[index] == (nil)
-    return (false)
-
-  else
-    return (true)
-end
 
 end
 
