@@ -4,6 +4,8 @@ def valid_move(board, index)
     return (false)
   elsif board[index] < 0
     return (false)
+  else
+    return (true)
 
   end
 end
